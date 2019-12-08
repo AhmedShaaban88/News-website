@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "Home"
+  },
+  "header": {
+    "title": "News Website",
+    "search-placeholder": "Search for News Articles ...",
+    "lang": "English"
+  },
+  "routes": {
+    "title": "Search Results",
+    "not-found":{
+      "title": "404 Not Found",
+      "msg": "O-o-oh! Something wrong.",
+      "return": "Go Home"
+    }
+  },
+  "latest": {
+    "head": "Latest Articles",
+    "posted": "Posted"
+  },
+  "search": {
+    "head": "Search Results",
+    "msg": "Write keyword to search"
+  },
+  "error": {
+    "title": "Error",
+    "msg": "Something wrong has been happen please check your connection and try again!"
+  },
+  "noResult": {
+    "title": "No Results",
+    "msg": "No Results for your search please check your keywords and try again"
+  }
+}

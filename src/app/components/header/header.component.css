@@ -1,0 +1,14 @@
+.text-grey {
+  color: gray; }
+
+.navbar-brand span {
+  vertical-align: super;
+  color: gray; }
+
+.fa-search {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 8px;
+  color: gray; }
+
+/*# sourceMappingURL=header.component.css.map */

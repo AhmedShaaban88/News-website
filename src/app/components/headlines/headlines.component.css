@@ -1,0 +1,20 @@
+a {
+  color: black; }
+  a:hover {
+    color: black;
+    text-decoration: none; }
+
+.card {
+  height: 100%; }
+
+.card-img-top {
+  height: 150px;
+  transition: all 0.3s ease; }
+  .card-img-top:hover {
+    filter: brightness(30%); }
+
+.time-ago {
+  position: absolute;
+  bottom: 0; }
+
+/*# sourceMappingURL=headlines.component.css.map */

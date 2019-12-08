@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom p-3">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-header" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="/">
+    <i class="fa fa-newspaper-o fa-2x text-grey"></i>
+    <span [class]="translate.currentLang === 'ar' ? 'mr-2' : 'ml-2'" >{{"header.title" | translate}}</span>
+    </a>
+
+  <div class="collapse navbar-collapse" id="main-header">
+    <div class="form-inline m-auto">
+
+      <span class="fa fa-search form-control-feedback"></span>
+
+      <input (keyup.enter)="search($event.target.value.trim())" class="form-control ml-sm-2 pr-4 pl-4" type="search" [placeholder]="'header.search-placeholder' | translate" aria-label="Search">
+
+    </div>
+    <button class="btn btn-outline-light text-grey" (click)="toggleLang()">{{"header.lang" | translate}}</button>
+  </div>
+</nav>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACC,KAAK,EAAE,KAAK;EACZ,OAAO;IACL,KAAK,EAAE,KAAK;IACZ,eAAe,EAAE,IAAI;;AAGzB,KAAK;EACH,MAAM,EAAE,IAAI;;AAEd,aAAa;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,aAAa;EACzB,mBAAO;IACL,MAAM,EAAE,eAAe;;AAG3B,SAAS;EACP,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC",
+"sources": ["headlines.component.scss"],
+"names": [],
+"file": "headlines.component.css"
+}
